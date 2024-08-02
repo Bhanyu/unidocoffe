@@ -1,0 +1,216 @@
+.singlecard{
+         
+ 
+ 
+    width: 25%;
+   position: relative;
+    margin: 3% 3% 93px 3%;
+    height: 400px;
+
+    @media (max-width:568px) {
+        width: 80%;
+     height: auto;
+         margin: 30px auto;
+        //  overflow: hidden;
+     
+         
+     }
+    // @media (min-width:569px) {
+      
+     
+         
+    //  }
+     @media (min-width: 569px) and (max-width: 768px){
+        width: 45%;
+       height: auto;
+        margin: 30px 15px;
+        overflow: hidden;
+     }
+     @media (min-width: 769px) and (max-width: 992px){
+        width: 45%;
+       height: auto;
+        margin: 30px 15px;
+        overflow: hidden;
+     }
+    //  @media (min-width:569px) {
+    //     width: 40%;
+       
+    //      margin: 30px auto;
+    //      overflow: hidden;
+     
+         
+    //  }
+    // @media (min-width:569px) {
+    //     max-width: 50%;
+    //     margin: 60px auto;
+    //     background-color: red;
+    //     overflow: hidden;
+    
+        
+    // }
+ 
+ &:first-of-type::after{
+    content:"$25.00";
+    background-color: #D8A336;
+    position: absolute;
+    color: #FAFAFA;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    bottom: 97%;
+    height: 25px;
+    @media (max-width:768px) {
+       bottom: 88%;
+    
+        
+    }
+    @media (min-width: 769px) and (max-width: 992px){
+     bottom:90%
+     }
+ }
+ &:nth-of-type(2)::after{
+    content:"$16.00";
+    background-color: #D8A336;
+    position: absolute;
+    color: #FAFAFA;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    bottom: 97%;
+    height: 25px;
+    @media (max-width:768px) {
+        bottom: 90%;
+     
+         
+     }
+     @media (min-width: 769px) and (max-width: 992px){
+        bottom:90%
+        }
+ }
+ &:nth-of-type(3)::after{
+    content:"$80.00";
+    background-color: #D8A336;
+    position: absolute;
+    color: #FAFAFA;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    bottom: 97%;
+    height: 25px;
+    @media (max-width:768px) {
+        bottom: 88%;
+     
+         
+     }
+     @media (min-width: 769px) and (max-width: 992px){
+        bottom:90%
+        }
+ }
+ &:nth-of-type(4)::after{
+    content:"$28.00";
+    background-color: #D8A336;
+    position: absolute;
+    color: #FAFAFA;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    bottom: 97%;
+    height: 25px;
+    @media (max-width:768px) {
+        bottom: 88%;
+     
+         
+     }
+     @media (min-width: 769px) and (max-width: 992px){
+        bottom:90%
+        }
+ }
+    .cardlink{
+      text-decoration: none;
+
+//   align-items: center;
+        .linkimage{
+     
+            max-width: 100%;
+  
+            background-color: #FAFAFA;
+         @media (max-width:992px) {
+            width: 100%;
+         }
+            // @media (min-width:569px) {
+            //  max-height: 350px;
+            //  min-height: 260px;
+          
+                 
+            //  }
+             @media (max-width:568px) {
+              
+              min-height: 280px;
+           
+                    
+                }
+
+        //     .unidocapp{
+            
+        //    height: 100%;
+        //      max-width: 100%;
+        //      padding: 29px 0 20px;
+        //        object-fit: cover;
+        //        object-position: center;
+            
+        //     }
+        //     .blend{
+        //         padding: 29px 0 20px;
+        //         height: 100%;
+        //         max-width: 100%;
+               
+        //           object-fit: cover;
+        //           object-position: center;
+        //        }
+        }
+        .link_desc{
+          
+            padding: 15px 20px 20px;
+            text-align: center;
+        
+           height: 55px;
+                margin: 0;
+                font-size: 16px;
+                font-weight: 600;
+                color: #000000;
+                @media(max-width:568px) {
+                    font-size: 23px;
+                }
+            
+        }
+        .addToCartButton{
+      
+        
+            text-align: center;
+    
+         
+        margin: auto;
+          margin-top: 20%;
+            display: block;
+                padding:5px 40px 8px;
+                color: white;
+                background-color: #D8A336;
+    font-size: 14px;
+            @media (max-width:568px) {
+                margin-top: 20px;
+                font-size: 16px;
+            }
+            @media(min-width:569px) and (max-width:768px) {
+                margin-top: 10%;
+            }
+            @media (min-width: 769px) and (max-width: 992px){
+               margin-top: 10%;
+                }
+        }
+    }
+  
+    
+}
+.shopSingleCard {
+    max-width: 100%;
+}

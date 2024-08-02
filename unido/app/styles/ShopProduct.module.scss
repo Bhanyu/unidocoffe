@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.shopCard{
+    // background-color: red;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+border-radius: 10px;
+font-family: "Poppins", sans-serif;
+
+    .cardLink{
+    // background-color: rgb(156, 63, 29);
+    height: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 35px 25px 15px 15px;
+    &:hover{
+        .productPrice{
+            color: #D8A336;
+            background-color: white;
+            border-color: #D8A336;
+        }
+       }
+    @media (max-width:568px) {
+       padding: 28px 12px 15px 12px;
+      
+      }
+      @media (min-width:569px) and (max-width:690px) {
+  
+       
+    padding: 30px 12px 12px 12px;
+       }
+    //   @media (min-width:691px) and (max-width:768px) {
+    //     padding: 35px 15px 0px 15px ;
+    
+      
+     
+    //     }
+      
+    .productPrice{
+        // background-color: tomato;
+     
+        background-color: rgb(96, 98, 101);
+        // width: 100%;
+        // display: inline-block;
+       
+        margin-left: 78%;
+
+        padding: 23px 5px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        transition: all .3s;
+        font-weight: 500;
+    font-size: 18px;
+        // &:hover{
+        //     color: #D8A336;
+        //     background-color: white;
+        //     border-color: #D8A336;
+        // }
+        @media (max-width:568px) {
+          font-size: 15px;
+          padding:20px  10px ;
+          }
+        //   @media (min-width:569px) and (max-width:768px) {
+        //    margin-left: 75%;
+        
+          
+         
+        //     }
+        @media (min-width:569px) and (max-width:690px) {
+           padding: 18px 5px;
+           margin-left: 78%;
+           font-size: 14px;
+           }
+  
+    }
+    .linkImage{
+     
+        width: 100%;
+        object-fit: cover;
+        max-width: 200px;
+        max-height: 300px;
+        margin: 60px auto 20px; 
+        @media (max-width:568px) {
+
+           margin: 30px auto 10px;
+            
+            }  
+            // @media (min-width:569px) and (max-width:768px) {
+            //   margin: 40px auto 30px;
+             
+            //     }
+    }
+
+    .link_desc{
+        font-size: 23px;
+  
+    margin: 26px 0;
+    padding-bottom: 20px;
+    position: relative;
+    color: #7d7d7d;
+    @media (max-width:568px) {
+
+    
+      font-size: 25px;
+      margin: 20px 0;
+        
+        }
+    //     @media (min-width:569px) and (max-width:768px) {
+    // margin: 20px 0 30px;   
+           
+    //           }
+    &::after{
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 4px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #d8a436;;
+    }
+    }
+    .addToCartButton{
+      
+        
+     
+
+     
+  
+      margin-bottom: 12%;
+      font-size: 18px;
+            padding:12px 20px;
+            border-radius: 5px;
+            color: white;
+            background-color: #D8A336;
+            letter-spacing: 3px;
+
+            @media (max-width:568px) {
+
+               margin-top: 5%;
+                
+                }
+    }
+    .cardDesc{
+        color: #7d7d7d;
+        font-size: 18px;
+        margin-bottom: 16px;
+        @media (max-width:568px) {
+
+           font-size: 20px;
+            
+            }
+            // @media (min-width:569px) and (max-width:768px) {
+            //   margin-bottom: 20px;
+             
+               
+            //       }
+    }
+    .productMass{
+        color: #7d7d7d;
+        @media (max-width:568px) {
+
+           font-size: 18px;
+            
+            }
+            // @media (min-width:569px) and (max-width:768px) {
+            //    font-size: 16px;
+               
+            //       }
+    }
+      
+    }
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+#singlePage{
+  
+    max-width: 100%;
+    background-color: #f0f0f0;
+    padding-bottom: 50px;
+    .singlePageBg{
+  
+        width: 100%;
+        height: 340px;
+        .pageBg{
+         width: 100%;
+         height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .container{
+    
+        max-width: 1400px;
+        margin: 0 auto;
+        @media (max-width:768px) {
+          
+            max-width: 100%;
+            padding: 0 15px;
+        }
+        .productForm{
+      margin-top: 12px;
+     
+         form{
+        
+          display: flex;
+          justify-content: space-between;
+            input{
+                padding: 15px ;
+               outline: none;
+width: 100%;
+border-radius: 10px 0 0px 10px;
+            }
+            button{
+                background-color: #D8A436;
+                width: 120px;
+                text-align: center;
+                color: #fff;
+                border-radius: 0 10px 10px 0;
+            }
+         }
+        }
+        .productPage{
+        
+            display: flex;
+       background-color: #fff;
+            max-width: 90%;
+            border-radius: 10px;
+            margin: 100px auto 30px;
+            padding: 100px ;
+            transition: all .3s;
+            align-items: center;
+            @media (max-width:768px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+          
+                padding: 20px ;
+              margin-top: 50px;
+            }
+         &:hover{
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+         }
+            .pageImg{
+                width: 30%;
+                height: 100%;
+                @media (max-width:768px) {
+                  width: 70%;
+                  margin-bottom: 30px;
+                }
+                @media (min-width:769px) and (max-width:992px) {
+               
+                min-width: 50%;
+              
+                }
+                .cardImage{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+           .pageContent{
+      
+            margin-left: 50px;
+            padding: 0 20px;
+            text-align: start;
+            @media (max-width:768px) {
+             text-align: center;
+            
+             margin-left: 0;
+            }
+            @media (min-width:769px) and (max-width:992px) {
+               
+                padding: 0 ;
+                margin-left: 20px;
+            }
+         
+        
+          
+  
+h1{
+    font-size: 23px;
+  margin-bottom: 20px;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+    color: #7d7d7d;
+
+ 
+}
+button{
+    background-color: #D8A436;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 30px;
+    min-width: 30%;
+  margin-top: 40px;
+
+
+    border-radius: 8px;
+    letter-spacing: 1px;
+    @media (max-width:568px) {
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+}
+           }
+        }
+       
+    }
+}

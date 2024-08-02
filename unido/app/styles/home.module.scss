@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#bgsection {
+    z-index: -1;
+    max-width: 100%;
+  
+    .container {
+      max-width: 100%;
+      position: relative;
+  
+      overflow: hidden;
+      @media (max-width:300px) {
+        
+        width: 100%;
+      }
+      .imgbanner {
+        max-width: 100%;
+        height: 600px;
+
+        .imgfon {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          filter: brightness(54%);
+        }
+      }
+      .overcontent {
+        position: absolute;
+        width: 30%;
+  
+        top: 75%;
+        left: 81%;
+        transform: translate(-50%, -50%);
+        min-height: 210px;
+        overflow: hidden;
+        @media (max-width: 768px) {
+          left: 50%;
+          width: 90%;
+          top: 50%;
+        }
+        @media (min-width: 769px) {
+          width: 60%;
+          top: 74%;
+        }
+  
+        h1 {
+          font-size: 60px;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          font-weight: bold;
+          width: 100%;
+          color: white;
+        }
+        .rsvp {
+          background-color: #d8a336;
+          color: white;
+          font-size: 16px;
+          display: flex;
+          padding: 12px 0px;
+          justify-content: center;
+  
+          margin: 30px auto 0;
+          border: none;
+          max-width: 72%;
+          cursor: pointer;
+          text-align: center;
+          @media (max-width: 768px) {
+            width: 30%;
+          }
+          @media (min-width: 769px) {
+            width: 35%;
+          }
+        }
+      }
+    }
+  }
+ 
+
+
+#cardsection{
+    font-family: "Poppins", sans-serif;
+  
+    .container{
+        max-width: 1350px;
+        margin: 0 auto;
+       
+        padding-top: 70px;
+        @media (max-width:768px) {
+           padding-top: 60px;
+            
+        }
+        .staff{
+         
+            text-align: center;
+          
+            font-size: 1.5rem;
+        position: relative;
+            margin-bottom: 70px;
+            @media (max-width:768px) {
+                font-size: 18px;
+
+            }
+            &::after{
+                content: "";
+                min-width: 50px;
+                height: 4px;
+                background-color: #D8A336;
+                position: absolute;
+                bottom: -130%;
+                left: 50%;
+                transform:translateX(-50%);
+                transition: all .5s;
+            }
+            &::after:hover{
+                width: 100px;
+            }
+        }
+        .cards_part{
+          
+            display: flex;
+  
+          @media (max-width:568px) {
+            flex-direction: column;
+          }
+          @media (min-width:569px) and (max-width:992px) {
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+          }
+            // @media (max-width:992px) {
+            //   flex-wrap: wrap;
+            //   padding: 10px 15px;
+                 
+            //  }
+          
+        }
+    }
+}
+
+
+
+#panamaPart {
+  background-image: url("https://cafeunido.com/pub/media/back-bann.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+
+  height: 100%;
+  padding: 100px 0;
+  background-size: cover;
+  .container {
+    max-width: 100%;
+    background-color: #1f3543d6;
+
+    .panamaCommon {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      @media (max-width:568px) {
+     
+        flex-direction: column;
+        max-width: 100%;
+      }
+      .panamaImg {
+        height: 100%;
+        width: 40%;
+        
+        @media (max-width:568px) {
+        
+         min-width: 80%;
+   
+        }
+        .panamapc {
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+         
+        }
+      }
+      .panamaText {
+        height: auto;
+        width: 55%;
+        padding: 0px 0 50px;
+        text-align: center;
+        @media (max-width:568px) {
+   padding: 0 12px 50px;
+  
+          width: 100%;
+         
+        }
+        h2 {
+          color: #d8a436;
+          font-size: 4vw;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          letter-spacing: 8px;
+          @media (max-width:568px) {
+          font-size: 42px;
+          }
+        }
+        p {
+          font-size: 4vw;
+          color: white;
+          margin: 0 0 20px;
+          font-weight: 500;
+          font-family: "Poppins", sans-serif;
+          @media (max-width:568px) {
+           font-size: 42px;
+          }
+        }
+        .geishalink {
+          background-color: #d8a436;
+          padding: 15px 20px;
+          letter-spacing: 1.3px;
+          border-radius: 10px;
+          line-height: 18px;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          text-decoration: none;
+          @media (max-width:568px) {
+            font-size: 14px;
+           
+          }
+          @media (min-width: 569px) and (max-width: 768px){
+         font-size: 12px;
+         padding: 8px 16px;
+         }
+        }
+      }
+    }
+  }
+}
+
+
+#particlesPart{
+    margin-top:100px;
+    margin-bottom: 30px;
+     .container{
+         max-width: 100%;
+        background-color: transparent;
+        .card{
+     border: none;
+     overflow: hidden;
+         height: 580px;
+         
+         @media (max-width:568px) {
+          margin: 20px 0;
+       //   height: 6px;
+        
+         }
+        @media (min-width:569px) and (max-width:992px) {
+         margin: 20px 0;
+        height: 700px;
+       
+        }
+       
+         .cardBody1{
+             
+             border-radius: 10px;
+             background-image:url("https://cafeunido.com/pub/media/image/2Cafe_Unido.jpg") ;
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: top;
+             position: relative;
+             padding-bottom: 30px;
+      
+          .cardContext{
+            
+             position: absolute;
+             z-index: 1;
+             width: 94%;
+            height: 35%;
+            background-color: rgba(0, 0, 0, 0.139);
+            top: 65%;
+           
+            padding: 0 30px;
+            color: white;
+            @media (max-width:568px) {
+            padding: 0;
+            top: 45%;
+            }
+            @media (min-width: 569px) and (max-width: 768px){
+           top: 50%;
+           padding: 0 15px;
+           height: auto;
+           
+                }
+                @media (min-width: 769px) and (max-width: 992px){
+                top: 60%;
+                padding: 0;
+                 
+                      }
+            .cardTitle{
+             font-size: 28px;
+       
+             
+            }
+            .cardText{
+             font-size: 14px;
+             font-weight: 500;
+             @media (max-width:568px) {
+                font-size: 16px;
+                 }
+                 @media (min-width:569px) and (max-width:992px) {
+                   font-size: 18px;
+                 
+                  }
+             
+               }
+          }
+         }
+         .cardBody2{
+             background-color: blue;
+             border-radius: 10px;
+             background-image:url("https://cafeunido.com/pub/media/image/2Roastery.jpg") ;
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: top;
+             position: relative;
+         
+       
+          .cardContext{
+            
+             position: absolute;
+             z-index: 4;
+             width: 94%;
+            height: 35%;
+            background-color: rgba(0, 0, 0, 0.139);
+            top: 65%;
+           
+            padding: 0 30px;
+            color: white;
+            @media (max-width:568px) {
+             padding: 0;
+             top: 60%;
+             }
+             @media (min-width: 569px) and (max-width: 768px){
+                top: 50%;
+                padding: 0 15px;
+                height: auto;
+                
+                     }
+             @media (min-width: 769px) and (max-width: 992px){
+                 top: 60%;
+                 padding: 0;
+                  
+                       }
+            .cardTitle{
+             font-size: 28px;
+        
+            }
+            .cardText{
+          font-size: 14px;
+          font-weight: 500;
+          @media (max-width:568px) {
+             font-size: 16px;
+              }
+              @media (min-width:569px) and (max-width:992px) {
+                font-size: 18px;
+              
+               }
+                  
+            }
+          }
+         }
+         .cardBody3{
+           
+             border-radius: 10px;
+             background-image:url("https://cafeunido.com/pub/media/image/2Cafe_.jpg") ;
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: top;
+             position: relative;
+            
+       
+          .cardContext{
+            
+             position: absolute;
+          
+             width: 94%;
+            height: 35%;
+            background-color: rgba(0, 0, 0, 0.139);
+            top: 65%;
+           
+            padding: 0 30px;
+            color: white;
+            @media (max-width:568px) {
+             padding: 0;
+             top: 70%;
+             }
+             @media (min-width: 569px) and (max-width: 768px){
+                top: 75%;
+                padding: 0 15px;
+                height: auto;
+                
+                     }
+             @media (min-width: 769px) and (max-width: 992px){
+                 top: 80%;
+                 padding: 0;
+                  height: auto;
+                       }
+            .cardTitle{
+             font-size: 28px;
+            
+                 
+            }
+            .cardText{
+             font-size: 14px;
+             font-weight: 500;
+             @media (max-width:568px) {
+                 font-size: 16px;
+                  }
+                  @media (min-width:569px) and (max-width:992px) {
+                   font-size: 18px;
+                 
+                  }
+                   
+ 
+               }
+          }
+         }
+        }
+     }
+ }
+
+
+ #swiper{
+
+  max-width: 100%;
+  text-align: center;
+  padding: 50px 0 0;
+  h2{
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 40px;
+    &::after{
+      content: "";
+      position: absolute;
+      bottom:0;
+     
+      width: 50px;
+      left: 50%;
+    transform: translateX(-50%);
+      height: 4px;
+      background-color: #D8A336;
+    }
+  }
+ 
+  .swiper_container{
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 0;
+
+
+
+
+ .swipersBox{
+  display: flex;
+  justify-content: center;
+
+  .singleSlide{
+ 
+    width: 300px;
+  cursor: pointer;
+  height: auto;
+    margin: 0 3px;
+      display: flex;
+   
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .imgPart {
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        .innerImg{
+          border-radius: 10px;
+          height: 250px;
+        }
+      }
+      .slideDesc{
+
+      
+        width: 320px;
+        
+        padding-top: 30px;
+        h3{
+          font-size: 30px;
+          font-weight: 500;
+        }
+        p{
+          font-size: 16px;
+          margin-top: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+ }
+
+
+  }
+  :global {
+
+    .swiper-button-prev {
+    
+      color: rgb(253, 84, 0);
+      opacity: 1;
+    
+  
+   
+      font-size: 50px;
+     
+  
+    }
+
+    .swiper-button-next {
+
+      color: rgb(253, 84, 0);
+      opacity: 1;
+
+  
+     
+    }
+
+    /* Change size of navigation arrows */
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 15px;
+      height: 15px;
+      top: 38%;
+    
+
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+    font-size: 30px;
+    font-weight:bolder;
+    }
+
+    /* Add custom hover effect */
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+}
+ 

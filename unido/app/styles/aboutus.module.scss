@@ -1,0 +1,194 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#aboutUs{
+   max-width: 100%;
+    .container{
+    
+        max-width: 1250px;
+        margin: 0 auto;
+        .pageTitle{
+            text-align: center;
+            padding-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+h1{
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+        }
+        .aboutUsContent{
+         
+            color: #7d7d7d;
+            @media (max-width:992px) {
+                  
+             padding: 0 15px;
+                
+              }
+            h2{
+              margin-bottom: 10px;
+              font-weight: 400;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .contentImg{
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+        .otherPagesLinks{
+          padding: 40px 0;
+        
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+                @media (max-width:568px) {
+                  
+                    flex-direction: column;
+                
+                  }
+                  @media (max-width:992px) {
+                  
+                    padding: 0 15px;
+                       
+                     }
+                li{
+                    @media (max-width:568px) {
+                  
+                      margin: 15px 0;
+                        
+                      }
+                    button{
+                        font-size: 20px;
+                        font-weight: 500;
+                        
+                        padding: 12px 15px;
+                        border-radius: 10px;
+                     border: 3px solid brown;
+                    
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+#brewguidesPart{
+ 
+    max-width: 100%;
+    .container{
+        max-width: 1350px;
+     
+        margin: 0 auto;
+        overflow: hidden;
+        @media (max-width:568px) {
+                  
+           padding: 0 20px;
+              
+            }
+        .pageGuidesTitle{
+            text-align: center;
+            padding-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+h1{
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+        }
+        .guideRow{
+    
+ 
+           justify-content: center;
+            display: flex;
+            .col{
+                height: 320px;
+                padding: 0;
+                width: 600px;
+                margin: 18px;
+             overflow: hidden;
+                background-size: cover;
+                background-repeat: no-repeat;
+                &:nth-child(1){
+                    background-image: url("https://cafeunido.com/pub/media/image/tmp/icon/Aeropress.png");
+                  
+               
+
+           
+                }
+                &:nth-child(2){
+                    background-image: url("https://cafeunido.com/pub/media/image/tmp/icon/Drip2_2.png");
+           
+                }
+                &:nth-child(3){
+                    background-image: url("https://cafeunido.com/pub/media/image/tmp/icon/French_Press.png");
+           
+                }
+                &:nth-child(4){
+                    background-image: url("https://cafeunido.com/pub/media/image/tmp/icon/Hario_V60.png")
+                }
+            }
+        }
+    }
+}
+
+#workAtUnido{
+ 
+    max-width: 100%;
+    .workContainer{
+        max-width: 800px;
+     
+        margin: 0 auto;
+        // background-color: #7d7d7d;
+        @media (max-width:568px) {
+            padding: 0 20px;
+        }
+        .WorkTitle{
+            text-align: center;
+            padding-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+h1{
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+        }
+        .workAtUnidoForm{
+          
+            .unidoForm{
+                display: flex;
+                flex-direction: column;
+               
+               
+                input{
+                    margin: 12px 0;
+                    padding: 10px 12px ;
+                    border-radius:5px ;
+                    border: 1px solid #7d7d7d;
+                }
+                textarea{
+                    padding: 12px 20px;
+                    border-radius: 10px;
+                    border: 1px solid #d4d9df;
+                }
+                .submit{
+                    background-color: #D8A436;
+                    color: #fff;
+                    font-size: 18px;
+                    padding: 12px 16px;
+                    min-width: 20%;
+                    margin: 0 auto;
+                    margin-top: 12px;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+    }
+}
