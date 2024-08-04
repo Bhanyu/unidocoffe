@@ -9,8 +9,8 @@ export default function Login({setMainPage}){
             <div className={styles.registerFormPart}>
                 <form className={styles.registerForm}>
                  
-                    <input type="email" placeholder="EMAIL" />
-                    <input type="password" placeholder="PASSWORD"/>
+                    <input type="email" placeholder="EMAIL" required/>
+                    <input type="password" placeholder="PASSWORD" required/>
                    
                     <button className={styles.signup} type="submit">
                     SIGN IN

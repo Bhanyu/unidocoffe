@@ -8,13 +8,13 @@ export default function Register({setMainPage}){
             </h2>
             <div className={styles.registerFormPart}>
                 <form className={styles.registerForm}>
-                    <input type="text" placeholder="FIRST NAME" />
-                    <input type="text" placeholder="LAST NAME" />
-                    <input type="email" placeholder="EMAIL" />
-                    <input type="password" placeholder="PASSWORD"/>
-                    <input type="password" placeholder="CONFIRM PASSWORD" />
-                    <input type="date" placeholder="BIRTHDAY"/>
-                    <input type="number" placeholder="PHONE NUMBER" />
+                    <input type="text" placeholder="FIRST NAME" required />
+                    <input type="text" placeholder="LAST NAME" required/>
+                    <input type="email" placeholder="EMAIL" required/>
+                    <input type="password" placeholder="PASSWORD" required/>
+                    <input type="password" placeholder="CONFIRM PASSWORD" required/>
+                    <input type="date" placeholder="BIRTHDAY" required/>
+                    <input type="number" placeholder="PHONE NUMBER" required/>
                    <div className={styles.check}>
                    <input type="checkbox" className={styles.checkBtn2} /><span>Yes, I Accept Terms and conditions</span>
                    </div>
